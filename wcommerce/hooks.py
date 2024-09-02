@@ -122,13 +122,11 @@ app_license = "agpl-3.0"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Item": {
+		"on_update": "wcommerce.crud_events.items.update_wc_product",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
