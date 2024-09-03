@@ -13,7 +13,18 @@ def execute():
 					"label": "WooCommerce Product ID",
 					"fieldtype": "Data",
 					"insert_after": "stock_uom",
-					"read_only": 1
+					"read_only": 1,
+					"unique": 1,
+				},
+			],
+			"Customer": [
+				{
+					"fieldname": "wcommerce_customer_id",
+					"label": "WooCommerce Customer ID",
+					"fieldtype": "Data",
+					"read_only": 1,
+					"insert_after": "customer_name",
+					"unique": 1,
 				},
 			],
 		}
