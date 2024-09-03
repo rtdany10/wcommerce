@@ -10,7 +10,7 @@ from frappe import _
 
 
 EVENT_MAPPER = {
-	"order.updated": "wcommerce.webhooks.order.update_order",
+	"order.updated": "wcommerce.webhooks.order.create_order",
 	"order.created": "wcommerce.webhooks.order.create_order",
 }
 

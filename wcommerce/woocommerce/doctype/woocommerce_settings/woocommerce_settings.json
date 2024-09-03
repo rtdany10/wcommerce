@@ -11,7 +11,11 @@
   "version",
   "column_break_gkwi",
   "consumer_key",
-  "consumer_password"
+  "consumer_password",
+  "section_break_zcab",
+  "customer_group",
+  "column_break_dzxg",
+  "territory"
  ],
  "fields": [
   {
@@ -47,12 +51,32 @@
    "fieldname": "version",
    "fieldtype": "Data",
    "label": "Version"
+  },
+  {
+   "fieldname": "section_break_zcab",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_group",
+   "fieldtype": "Link",
+   "label": "Customer Group",
+   "options": "Customer Group"
+  },
+  {
+   "fieldname": "column_break_dzxg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-09-02 18:53:43.759211",
+ "modified": "2024-09-03 16:31:19.761732",
  "modified_by": "Administrator",
  "module": "WooCommerce",
  "name": "WooCommerce Settings",

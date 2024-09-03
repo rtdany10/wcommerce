@@ -10,7 +10,7 @@
   "status",
   "section_break_namc",
   "request_data",
-  "error_log"
+  "error"
  ],
  "fields": [
   {
@@ -41,15 +41,15 @@
    "read_only": 1
   },
   {
-   "fieldname": "error_log",
+   "fieldname": "error",
    "fieldtype": "Long Text",
-   "label": "Error Log",
+   "label": "Error",
    "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-03 11:21:39.917207",
+ "modified": "2024-09-03 16:22:13.942663",
  "modified_by": "Administrator",
  "module": "WooCommerce",
  "name": "WooCommerce Log",
