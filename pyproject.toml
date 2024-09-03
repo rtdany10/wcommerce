@@ -3,7 +3,7 @@ name = "wcommerce"
 authors = [
     { name = "Wahni IT Solutions Pvt Ltd", email = "info@wahni.com"}
 ]
-description = "Woo Commerce Integration"
+description = "WooCommerce Integration"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

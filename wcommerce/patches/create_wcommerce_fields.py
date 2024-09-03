@@ -10,7 +10,7 @@ def execute():
 			"Item": [
 				{
 					"fieldname": "wc_product_id",
-					"label": "Woo Commerce Product ID",
+					"label": "WooCommerce Product ID",
 					"fieldtype": "Data",
 					"insert_after": "stock_uom",
 					"read_only": 1

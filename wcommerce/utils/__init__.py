@@ -7,7 +7,7 @@ from woocommerce import API
 
 class WooCommerceAPI():
     def __init__(self, settings=None):
-        self.settings = settings or frappe.get_single("Woo Commerce Settings")
+        self.settings = settings or frappe.get_single("WooCommerce Settings")
         self.wcapi = API(
             url=self.settings.url,
             consumer_key=self.settings.consumer_key,

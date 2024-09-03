@@ -1,7 +1,7 @@
 app_name = "wcommerce"
 app_title = "WooCommerce"
 app_publisher = "Wahni IT Solutions Pvt Ltd"
-app_description = "Woo Commerce Integration"
+app_description = "WooCommerce Integration"
 app_email = "info@wahni.com"
 app_license = "agpl-3.0"
 # required_apps = []

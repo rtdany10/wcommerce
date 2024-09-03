@@ -1,6 +1,6 @@
 ### WooCommerce
 
-Woo Commerce Integration
+WooCommerce Integration
 
 ### Installation
 

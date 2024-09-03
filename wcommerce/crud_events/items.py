@@ -21,5 +21,5 @@ def update_wc_product(doc, method=None):
             frappe.msgprint(_("Product created on WooCommerce"))
     except Exception as e:
         msg = _("Failed to update product on WooCommerce.")
-        msg += (" " + f"Error: {str(e)}" )
+        msg += (" " + f"Error: {str(e)}")
         frappe.msgprint(msg)
